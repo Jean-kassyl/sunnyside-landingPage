@@ -1,57 +1,67 @@
+# Frontend mentor - Sunnyside landing page solution
+
+This is a solution to the [Frontend Mentor](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef). 
+
+## Table of contents 
+
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
+
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- View the optimal layout for the site depending on their device's screen size (1440px and 375px)
+- See hover states for all interactive elements on the page
 # Challenge Startup Landing Page
 
 To get all the images we recommend you go to [Frontend Mentor](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef) to sign up and get all the images! It is completely FREE!
 
-## Images
+### Screenshot
 
-### Banner 
-https://i.ibb.co/HNvHSyV/image-header.jpg
+![desktop screenshot](./screenshot-desktop.png)
 
-### Logo
+![mobile screenshot](./screenshot-mobile.png)
 
-https://svgur.com/i/Zvd.svg
+### Links
 
-### Arrow 
+- Solution URL: [check the project soluction here](https://github.com/Jean-kassyl/sunnyside-landingPage)
+- Live Site URL: [live site demo](https://jean-kassyl.github.io/sunnyside-landingPage/)
 
-https://i.ibb.co/MSv2H70/arrow.png
+## My process
 
-### Learn More
+### Built with
 
-https://i.ibb.co/TB2DVgK/learnmore.png
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
 
-### The Egg
+### What I learned
+This project despite it's simplicity was a little bit challenging. 
+Some of the challenges were around how to place the arrow and make it look exactly
+as the same as on the provided design. 
+I had to review flexbox properties, css position and many more.
 
-https://i.ibb.co/D79rDCW/egg.jpg
+### Continued development
 
-### Graphic Design
+I think I have to continue working on the basics(HTML and CSS)
 
-https://i.ibb.co/ssvvmSd/cherries.png
+## Author
 
-### Photography
+- LinkedIn - [Jean Marc Kassyl Covi](https://www.linkedin.com/in/jean-marc-kassyl-covi-892548204/)
 
-https://i.imgur.com/nVFptJO.png
+## Acknowledgments
 
-### Client 
+This project was only possible because of Frontend mentor. I address My sincere thank to them as they are working hard to make us better developers.
 
-https://i.ibb.co/pWCgfnG/client1.png
-
-### The Cone
-
-https://i.imgur.com/DkXP0Wg.jpg
-
-### Milk Bottle
-
-https://i.imgur.com/SgkAaZc.jpg
-
-### The Orange
-
-https://i.imgur.com/AQIss42.jpg
-
-### Sugar Cubes
-
-https://i.imgur.com/6dQ5CwL.jpg
-
-### Footer
-
-https://i.ibb.co/Wn8qsjR/footer.png
 
