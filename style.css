@@ -222,7 +222,7 @@ header.activated .menu{
 .cerise, 
 .orange {
     width: 100%;
-    height: 62rem;
+    height: 65rem;
     position: relative;
     
 }
@@ -232,10 +232,10 @@ header.activated .menu{
     position: absolute;
     width: 100%;
     margin: 0 auto;
-    bottom: 4rem;
+    bottom: 3.5rem;
 }
 .design img {
-    max-width: 100%;
+    width: 100%;
     height: 100%;
     object-fit: cover;
     -webkit-object-fit: cover;
@@ -469,6 +469,287 @@ footer {
    }
    
    .hero h1 {
+       font-size: 4.5rem;
+       padding-bottom:8rem;
+       
+       
+   }
+   
+   
+   
+   .arrow {
+       text-align: center;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       width: 100px;
+       margin: 0 auto;
+       
+   }
+
+   .col-2 {
+    display: flex;
+    flex-direction: row;
+}
+.section-image {
+    flex: 1;
+}
+
+.section-image img {
+    width: 100%;
+    height: 100%;
+    
+}
+.section-text {
+    flex: 1;
+    width: 100%;
+    display: grid;
+    place-items: center; 
+    padding: 0; 
+}
+
+.text {
+    text-align: left;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1.5rem;
+    margin: 0 auto;
+}
+
+.text h3 {
+    color: rgb(30, 45, 66);
+    font-size: 3.5rem;
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+.text p {
+    font-size: 1.5rem;
+    color: #888;
+    line-height: 1.6;
+    font-family: 'Barlow', sans-serif;
+    margin: 1.5rem 0;
+
+}
+.more {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: max-content;
+}
+
+.more a {
+    display: inline-block;
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: black;
+    position: relative;
+}
+
+.more span {
+    width: 150px;
+    height: 12px;
+    border-radius: 10px;
+    margin-top: -13px;
+
+}
+
+.section-1 .section-image {
+    order: 2;
+
+}
+
+
+
+.section-3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.cerise, 
+.orange {
+    height: auto;
+}
+.design {
+    flex: 1;
+}
+
+.design .sec-text {
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+    bottom: 3rem;
+}
+
+.text-wrapper h3 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+}
+.text-wrapper p {
+    font-size: 1.6rem;
+    width: 35rem;
+    margin: 0 auto;
+}
+   
+.testimonials {
+    padding: 10rem 2rem;
+}
+
+.card-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    width: 96%;
+    margin: 0 auto;
+    
+    
+
+}
+
+.card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+
+}
+
+.card p {
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.85rem;
+    font-weight: 600;
+    text-align: center;
+    color: #555;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    align-items: center;
+}
+
+.info .name {
+    font-size: 1.45rem;
+    color: rgb(30, 45, 66);
+    font-weight: 900;
+
+}
+
+.info .work {
+    font-size: 1.25rem;
+    color: #777;
+}
+
+.images-sec {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: auto;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: center;
+    gap: 7rem;
+    margin: 4rem 0;
+}
+
+.footer-logo {
+    width: 16%;
+}
+.footer-menu li {
+    font-size: 1.8rem;
+    color: #2C7566;
+}
+}
+
+@media  only screen and (min-width: 1080px) {
+
+    h1, h2, h3 {
+        font-family: 'Fraunces', serif;
+    }
+    
+    header {
+        padding-bottom: 30rem;
+    }
+    .nav-center {
+        padding: 0 4rem;
+        padding-block: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+    #menuToggler {
+        display: none;
+    }
+    .nav-header {
+        padding-block: 0;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    
+    .menu {
+        width: 100%;
+        padding-block: 0;
+        background-color: transparent;
+        display: flex;
+        flex-direction: row;
+        gap: 4.5rem;
+        margin-top: 0;
+        top: 0;
+        right: 0;
+        justify-content: flex-end;
+        align-items: center;
+        position: relative;
+        z-index: 99;  
+        
+    }
+
+    .menu::before {
+        content: ""; 
+        position: absolute;
+        top: 0;
+        right: 0;
+        border: 0;
+        border-top: 0 transparent;
+        border-left: 0 transparent;
+    }
+    
+    
+    .menu li a {
+        display: inline-block;
+        font-family: 'Barlow', sans-serif;
+        color: white;
+        font-weight: 600;
+        font-size: 1.8rem;
+    }
+    
+    .btn {
+        padding: 1.6rem 2.6rem;
+        background-color: white;
+        border-radius: 24px;
+        font-size: 1.5rem;
+        letter-spacing: 0px;
+    }
+    
+    .menu .btn > a {
+        color: black;
+        text-transform: uppercase;
+        font-family: 'Fraunces', serif;
+        font-size: 1.5rem;
+        font-weight: 600;
+        
+    }
+
+    .hero {
+        margin-top: 11rem;
+   }
+   
+   .hero h1 {
        font-size: 6rem;
        padding-bottom:8rem;
        
@@ -602,7 +883,7 @@ footer {
     display: flex;
     flex-direction: row;
     gap: 2rem;
-    width: 1080px;
+    width: 90%;
     margin: 0 auto;
     
     
